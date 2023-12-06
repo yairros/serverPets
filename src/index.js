@@ -18,7 +18,7 @@ app.use(
   cors({
     origin: [
   "http://localhost:3000",
-  // "https://adoptify-server-aucc.onrender.com"
+  "https://petz-bpm5.onrender.com"
 ],
     credentials: true,
   })
