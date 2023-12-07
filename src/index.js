@@ -17,7 +17,7 @@ const app = express();
 app.use((req, res, next) => {
   res.setHeader(
     "Access-Control-Allow-Origin",
-    "https://petz-bpm5-api.onrender.com"
+    "https://adoptify-server.onrender.com"
   );
   res.setHeader(
     "Access-Control-Allow-Methods",
